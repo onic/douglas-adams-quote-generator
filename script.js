@@ -9,6 +9,14 @@ const quotes = [
 const quoteOutput = document.getElementById("quote-output");
 const newQuoteButton = document.getElementById("new-quote-button");
 
+if (!quoteOutput) {
+  throw new Error('Element with id "quote-output" not found');
+}
+
+if (!newQuoteButton) {
+  throw new Error('Element with id "new-quote-button" not found');
+}
+
 let previousIndex = -1;
 
 function getNextQuoteIndex() {
