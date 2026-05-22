@@ -29,6 +29,11 @@ button:hover {
   background: #1e3a8a;
 }
 
+button:focus-visible {
+  outline: 3px solid #1f2937;
+  outline-offset: 3px;
+}
+
 #quote-output {
   margin: 0;
   font-size: 1.125rem;
