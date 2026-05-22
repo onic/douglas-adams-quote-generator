@@ -1,2 +1,3 @@
 # douglas-adams-quote-generator
-AI test repo
+
+Open `/tmp/workspace/onic/douglas-adams-quote-generator/index.html` in a browser and click the button to display a Douglas Adams quote. Clicking again replaces it with a new quote.
