@@ -3,7 +3,8 @@ const quotes = [
   "The answer to the ultimate question of life, the universe and everything is 42.",
   "Time is an illusion. Lunchtime doubly so.",
   "Would it save you a lot of time if I just gave up and went mad now?",
-  "Don't panic."
+  "Don't panic.",
+  "In the beginning the Universe was created. This has made a lot of people very angry and been widely regarded as a bad move."
 ];
 
 const quoteOutput = document.getElementById("quote-output");
