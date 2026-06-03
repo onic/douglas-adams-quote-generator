@@ -1,3 +1,4 @@
+// Random quote generator that displays a new quote each time the button is clicked
 const quotes = [
   "I love deadlines. I like the whooshing sound they make as they fly by.",
   "The answer to the ultimate question of life, the universe and everything is 42.",
