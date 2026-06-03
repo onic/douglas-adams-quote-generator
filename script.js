@@ -4,7 +4,8 @@ const quotes = [
   "Time is an illusion. Lunchtime doubly so.",
   "Would it save you a lot of time if I just gave up and went mad now?",
   "Don't panic.",
-  "In the beginning the Universe was created. This has made a lot of people very angry and been widely regarded as a bad move."
+  "In the beginning the Universe was created. This has made a lot of people very angry and been widely regarded as a bad move.",
+  "A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools."
 ];
 
 const quoteOutput = document.getElementById("quote-output");
