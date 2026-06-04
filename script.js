@@ -7,7 +7,8 @@ const quotes = [
   "Don't panic.",
   "In the beginning the Universe was created. This has made a lot of people very angry and been widely regarded as a bad move.",
   "A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools.",
-  "The ships hung in the sky in much the same way that bricks don't."
+  "The ships hung in the sky in much the same way that bricks don't.",
+  "Flying is learning how to throw yourself at the ground and miss."
 ];
 
 const quoteOutput = document.getElementById("quote-output");
