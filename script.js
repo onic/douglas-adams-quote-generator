@@ -9,7 +9,8 @@ const quotes = [
   "A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools.",
   "The ships hung in the sky in much the same way that bricks don't.",
   "Flying is learning how to throw yourself at the ground and miss.",
-  "So long, and thanks for all the fish."
+  "So long, and thanks for all the fish.",
+  "I may not have gone where I intended to go, but I think I have ended up where I needed to be."
 ];
 
 const quoteOutput = document.getElementById("quote-output");
