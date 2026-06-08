@@ -65,6 +65,10 @@ export const quotes = [
   {
     text: "The major difference between a thing that might go wrong and a thing that cannot possibly go wrong is that when a thing that cannot possibly go wrong goes wrong it usually turns out to be impossible to get at or repair.",
     source: "Mostly Harmless"
+  },
+  {
+    text: "There is a theory which states that if ever anyone discovers exactly what the Universe is for and why it is here, it will instantly disappear and be replaced by something even more bizarre and inexplicable. There is another theory which states that this has already happened.",
+    source: "The Hitchhiker's Guide to the Galaxy"
   }
 ];
 
