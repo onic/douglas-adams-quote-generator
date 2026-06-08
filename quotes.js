@@ -69,6 +69,10 @@ export const quotes = [
   {
     text: "There is a theory which states that if ever anyone discovers exactly what the Universe is for and why it is here, it will instantly disappear and be replaced by something even more bizarre and inexplicable. There is another theory which states that this has already happened.",
     source: "The Hitchhiker's Guide to the Galaxy"
+  },
+  {
+    text: "On the planet Earth, man had always assumed that he was more intelligent than dolphins because he had achieved so much — the wheel, New York, wars and so on — whilst all the dolphins had ever done was muck about in the water having a good time. But conversely, the dolphins had always believed that they were far more intelligent than man — for precisely the same reasons.",
+    source: "The Hitchhiker's Guide to the Galaxy"
   }
 ];
 
