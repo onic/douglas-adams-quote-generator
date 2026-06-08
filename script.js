@@ -1,24 +1,16 @@
 // Random quote generator that displays a new quote each time the button is clicked
-const quotes = [
-  "I love deadlines. I like the whooshing sound they make as they fly by.",
-  "The answer to the ultimate question of life, the universe and everything is 42.",
-  "Time is an illusion. Lunchtime doubly so.",
-  "Would it save you a lot of time if I just gave up and went mad now?",
-  "Don't panic.",
-  "In the beginning the Universe was created. This has made a lot of people very angry and been widely regarded as a bad move.",
-  "A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools.",
-  "The ships hung in the sky in much the same way that bricks don't.",
-  "Flying is learning how to throw yourself at the ground and miss.",
-  "So long, and thanks for all the fish.",
-  "I may not have gone where I intended to go, but I think I have ended up where I needed to be.",
-  "The fact that we live at the bottom of a deep gravity well, on the surface of a gas covered planet going around a nuclear fireball 90 million miles away and think this to be normal is obviously some indication of how skewed our perspective tends to be."
-];
+import { quotes, getNextQuoteIndex } from './quotes.js';
 
 const quoteOutput = document.getElementById("quote-output");
+const quoteSource = document.getElementById("quote-source");
 const newQuoteButton = document.getElementById("new-quote-button");
 
 if (!quoteOutput) {
   throw new Error('Element with id "quote-output" not found');
+}
+
+if (!quoteSource) {
+  throw new Error('Element with id "quote-source" not found');
 }
 
 if (!newQuoteButton) {
@@ -27,23 +19,12 @@ if (!newQuoteButton) {
 
 let previousIndex = -1;
 
-function getNextQuoteIndex() {
-  if (quotes.length <= 1) {
-    return 0;
-  }
-
-  let nextIndex = previousIndex;
-  while (nextIndex === previousIndex) {
-    nextIndex = Math.floor(Math.random() * quotes.length);
-  }
-
-  return nextIndex;
-}
-
 function showQuote() {
-  const nextIndex = getNextQuoteIndex();
+  const nextIndex = getNextQuoteIndex(previousIndex, quotes.length);
   previousIndex = nextIndex;
-  quoteOutput.textContent = quotes[nextIndex];
+  const quote = quotes[nextIndex];
+  quoteOutput.textContent = quote.text;
+  quoteSource.textContent = `— ${quote.source}`;
 }
 
 newQuoteButton.addEventListener("click", showQuote);

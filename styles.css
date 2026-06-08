@@ -40,3 +40,11 @@ button:focus-visible {
   font-size: 1.125rem;
   max-width: 40rem;
 }
+
+#quote-source {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  font-style: italic;
+  color: #4b5563;
+}
