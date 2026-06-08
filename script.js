@@ -8,6 +8,7 @@ const quotes = [
   "In the beginning the Universe was created. This has made a lot of people very angry and been widely regarded as a bad move.",
   "A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools.",
   "The ships hung in the sky in much the same way that bricks don't.",
+  "Curiously enough, the only thing that went through the mind of the bowl of petunias as it fell was Oh no, not again.",
   "Flying is learning how to throw yourself at the ground and miss.",
   "So long, and thanks for all the fish.",
   "I may not have gone where I intended to go, but I think I have ended up where I needed to be.",
