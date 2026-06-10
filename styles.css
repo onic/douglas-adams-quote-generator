@@ -86,3 +86,10 @@ button:focus-visible {
 #copy-button.copy-error:hover {
   background: #dc2626;
 }
+
+.footer-tagline {
+  margin: 1.5rem auto 0;
+  font-size: 0.75rem;
+  color: #9ca3af;
+  max-width: 40rem;
+}
