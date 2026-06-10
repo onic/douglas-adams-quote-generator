@@ -77,6 +77,30 @@ export const quotes = [
   {
     text: "Human beings, who are almost unique in having the ability to learn from the experience of others, are also remarkable for their apparent disinclination to do so.",
     source: "The Hitchhiker's Guide to the Galaxy"
+  },
+  {
+    text: "Space is big. You just won't believe how vastly, hugely, mind-bogglingly big it is. I mean, you may think it's a long way down the road to the chemist's, but that's just peanuts to space.",
+    source: "The Hitchhiker's Guide to the Galaxy"
+  },
+  {
+    text: "Anyone who is capable of getting themselves made President should on no account be allowed to do the job.",
+    source: "The Restaurant at the End of the Universe"
+  },
+  {
+    text: "I refuse to answer that question on the grounds that I don't know the answer.",
+    source: "The Restaurant at the End of the Universe"
+  },
+  {
+    text: "The impossible often has a kind of integrity which the merely improbable lacks.",
+    source: "The Long Dark Tea-Time of the Soul"
+  },
+  {
+    text: "If there's anything more important than my ego around, I want it caught and shot now.",
+    source: "The Hitchhiker's Guide to the Galaxy"
+  },
+  {
+    text: "You live and learn. At any rate, you live.",
+    source: "Mostly Harmless"
   }
 ];
 
