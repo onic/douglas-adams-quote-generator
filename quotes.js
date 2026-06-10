@@ -101,6 +101,10 @@ export const quotes = [
   {
     text: "You live and learn. At any rate, you live.",
     source: "Mostly Harmless"
+  },
+  {
+    text: "Let's think the unthinkable, let's do the undoable. Let us prepare to grapple with the ineffable itself, and see if we may not eff it after all.",
+    source: "Dirk Gently's Holistic Detective Agency"
   }
 ];
 
