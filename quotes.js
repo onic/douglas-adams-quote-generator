@@ -105,6 +105,10 @@ export const quotes = [
   {
     text: "Let's think the unthinkable, let's do the undoable. Let us prepare to grapple with the ineffable itself, and see if we may not eff it after all.",
     source: "Dirk Gently's Holistic Detective Agency"
+  },
+  {
+    text: "It was the mark of a barbarian to destroy someone's sense of reality.",
+    source: "The Long Dark Tea-Time of the Soul"
   }
 ];
 
