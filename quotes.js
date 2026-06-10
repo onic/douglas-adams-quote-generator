@@ -73,6 +73,10 @@ export const quotes = [
   {
     text: "On the planet Earth, man had always assumed that he was more intelligent than dolphins because he had achieved so much — the wheel, New York, wars and so on — whilst all the dolphins had ever done was muck about in the water having a good time. But conversely, the dolphins had always believed that they were far more intelligent than man — for precisely the same reasons.",
     source: "The Hitchhiker's Guide to the Galaxy"
+  },
+  {
+    text: "Human beings, who are almost unique in having the ability to learn from the experience of others, are also remarkable for their apparent disinclination to do so.",
+    source: "The Hitchhiker's Guide to the Galaxy"
   }
 ];
 
