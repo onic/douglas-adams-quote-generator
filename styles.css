@@ -35,10 +35,14 @@ button:focus-visible {
   box-shadow: 0 0 0 4px #0f172a;
 }
 
+.quote-card {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
 #quote-output {
   margin: 0;
   font-size: 1.125rem;
-  max-width: 40rem;
 }
 
 #quote-source {
@@ -47,4 +51,38 @@ button:focus-visible {
   font-size: 0.875rem;
   font-style: italic;
   color: #4b5563;
+}
+
+#copy-button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  background: #3b82f6;
+  transition: background-color 0.2s ease;
+}
+
+#copy-button:hover {
+  background: #2563eb;
+}
+
+#copy-button:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px #2563eb;
+}
+
+#copy-button.copy-success {
+  background: #10b981;
+}
+
+#copy-button.copy-success:hover {
+  background: #059669;
+}
+
+#copy-button.copy-error {
+  background: #ef4444;
+}
+
+#copy-button.copy-error:hover {
+  background: #dc2626;
 }
