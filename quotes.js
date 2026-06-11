@@ -109,6 +109,11 @@ export const quotes = [
   {
     text: "It was the mark of a barbarian to destroy someone's sense of reality.",
     source: "The Long Dark Tea-Time of the Soul"
+  },
+  {
+    text: "Nothing travels faster than the speed of light, with the possible exception of bad news, which obeys its own special laws.",
+    source: "The Hitchhiker's Guide to the Galaxy"
+    // Appears in "Mostly Harmless" as well, but originated in HHGTTG radio series
   }
 ];
 

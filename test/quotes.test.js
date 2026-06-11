@@ -7,6 +7,11 @@ test('quotes is an array with at least 16 entries', () => {
   assert.ok(quotes.length >= 16, `quotes should have at least 16 entries, but has ${quotes.length}`);
 });
 
+test('quotes array has increased to at least 28 entries after new quote addition', () => {
+  // Baseline was 27 quotes; after adding 1 new quote, should have at least 28
+  assert.ok(quotes.length >= 28, `quotes should have at least 28 entries after new quote addition, but has ${quotes.length}`);
+});
+
 test('every quote has non-empty text and source strings', () => {
   quotes.forEach((quote, index) => {
     assert.ok(
