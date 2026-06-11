@@ -114,6 +114,18 @@ export const quotes = [
     text: "Nothing travels faster than the speed of light, with the possible exception of bad news, which obeys its own special laws.",
     source: "The Hitchhiker's Guide to the Galaxy"
     // Appears in "Mostly Harmless" as well, but originated in HHGTTG radio series
+  },
+  {
+    text: "This must be Thursday. I never could get the hang of Thursdays.",
+    source: "The Hitchhiker's Guide to the Galaxy"
+  },
+  {
+    text: "The mere thought hadn't even begun to speculate about the merest possibility of crossing my mind.",
+    source: "The Hitchhiker's Guide to the Galaxy"
+  },
+  {
+    text: "Isn't it enough to see that a garden is beautiful without having to believe that there are fairies at the bottom of it too?",
+    source: "The Hitchhiker's Guide to the Galaxy"
   }
 ];
 
